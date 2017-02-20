@@ -1,0 +1,6 @@
+framework module Pods_ShuffleItTests {
+  umbrella header "Pods-ShuffleItTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0CB9893B3F4205ABC48A563F /* Pods_ShuffleItUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF328717E603A6DF1B2C304 /* Pods_ShuffleItUITests.framework */; };
+		2E2BA8501DF5612B0062C619 /* 01-Animals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA8481DF5612B0062C619 /* 01-Animals.mp3 */; };
+		2E2BA8511DF5612B0062C619 /* 02-Enakenna Yaarum Illaye.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA8491DF5612B0062C619 /* 02-Enakenna Yaarum Illaye.mp3 */; };
+		2E2BA8521DF5612B0062C619 /* 03-Heathens.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA84A1DF5612B0062C619 /* 03-Heathens.mp3 */; };
+		2E2BA8531DF5612B0062C619 /* 04-Halena.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA84B1DF5612B0062C619 /* 04-Halena.mp3 */; };
+		2E2BA8541DF5612B0062C619 /* 07-The Reason.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA84C1DF5612B0062C619 /* 07-The Reason.mp3 */; };
+		2E2BA8551DF5612B0062C619 /* 08-Thalli Pogathey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA84D1DF5612B0062C619 /* 08-Thalli Pogathey.mp3 */; };
+		2E2BA8561DF5612B0062C619 /* 05-Cheap Thrills.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA84E1DF5612B0062C619 /* 05-Cheap Thrills.mp3 */; };
+		2E2BA8571DF5612B0062C619 /* 06-Radioactive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA84F1DF5612B0062C619 /* 06-Radioactive.mp3 */; };
 		2E2CEC501DEB98BA009CEA5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2CEC4F1DEB98BA009CEA5F /* AppDelegate.swift */; };
 		2E2CEC521DEB98BA009CEA5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2CEC511DEB98BA009CEA5F /* ViewController.swift */; };
 		2E2CEC551DEB98BA009CEA5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2CEC531DEB98BA009CEA5F /* Main.storyboard */; };
@@ -15,6 +24,20 @@
 		2E2CEC5D1DEB98BA009CEA5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2CEC5B1DEB98BA009CEA5F /* LaunchScreen.storyboard */; };
 		2E2CEC681DEB98BA009CEA5F /* ShuffleItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2CEC671DEB98BA009CEA5F /* ShuffleItTests.swift */; };
 		2E2CEC731DEB98BA009CEA5F /* ShuffleItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2CEC721DEB98BA009CEA5F /* ShuffleItUITests.swift */; };
+		2E2DF64D1DF4969000A52FAB /* PlaySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2DF64C1DF4969000A52FAB /* PlaySwift.swift */; };
+		2E2E3FBD1E1568E100ADF914 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2E3FBB1E1568E100ADF914 /* FBSDKCoreKit.framework */; };
+		2E2E3FBE1E1568E100ADF914 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2E3FBC1E1568E100ADF914 /* FBSDKLoginKit.framework */; };
+		2E2E3FC31E1577E200ADF914 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2E3FC21E1577E200ADF914 /* Bolts.framework */; };
+		2E33EAE31DF27290004E54F0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E33EAE21DF27290004E54F0 /* ProfileViewController.swift */; };
+		2E33EAE51DF38E9D004E54F0 /* customCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E33EAE41DF38E9D004E54F0 /* customCell.swift */; };
+		2E6F67881DF3AFE60084BB69 /* LibraryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F67871DF3AFE60084BB69 /* LibraryCell.swift */; };
+		2E6F678A1DF3B02F0084BB69 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E6F67891DF3B02F0084BB69 /* LibraryViewController.swift */; };
+		2E7805801E276DBD00E21F4B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E78057F1E276DBD00E21F4B /* GoogleService-Info.plist */; };
+		2E7805841E27953200E21F4B /* ProfilePic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7805831E27953200E21F4B /* ProfilePic.swift */; };
+		2E7805861E2B380800E21F4B /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7805851E2B380800E21F4B /* Spinner.swift */; };
+		2E7805881E2C74B600E21F4B /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E7805871E2C74B600E21F4B /* TabBarController.swift */; };
+		BCAB3B836422D2F4EF64E80A /* Pods_ShuffleItTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D0DA15A03EA4FA26D8A2639 /* Pods_ShuffleItTests.framework */; };
+		F320B755C250822E22E1E721 /* Pods_ShuffleIt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65C915FB2E135D317CA4EDFC /* Pods_ShuffleIt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +58,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E2BA8481DF5612B0062C619 /* 01-Animals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01-Animals.mp3"; sourceTree = "<group>"; };
+		2E2BA8491DF5612B0062C619 /* 02-Enakenna Yaarum Illaye.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02-Enakenna Yaarum Illaye.mp3"; sourceTree = "<group>"; };
+		2E2BA84A1DF5612B0062C619 /* 03-Heathens.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03-Heathens.mp3"; sourceTree = "<group>"; };
+		2E2BA84B1DF5612B0062C619 /* 04-Halena.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04-Halena.mp3"; sourceTree = "<group>"; };
+		2E2BA84C1DF5612B0062C619 /* 07-The Reason.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07-The Reason.mp3"; sourceTree = "<group>"; };
+		2E2BA84D1DF5612B0062C619 /* 08-Thalli Pogathey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08-Thalli Pogathey.mp3"; sourceTree = "<group>"; };
+		2E2BA84E1DF5612B0062C619 /* 05-Cheap Thrills.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05-Cheap Thrills.mp3"; sourceTree = "<group>"; };
+		2E2BA84F1DF5612B0062C619 /* 06-Radioactive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06-Radioactive.mp3"; sourceTree = "<group>"; };
 		2E2CEC4C1DEB98BA009CEA5F /* ShuffleIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuffleIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2CEC4F1DEB98BA009CEA5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E2CEC511DEB98BA009CEA5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +80,29 @@
 		2E2CEC6E1DEB98BA009CEA5F /* ShuffleItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShuffleItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2CEC721DEB98BA009CEA5F /* ShuffleItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleItUITests.swift; sourceTree = "<group>"; };
 		2E2CEC741DEB98BA009CEA5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E2DF64C1DF4969000A52FAB /* PlaySwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySwift.swift; sourceTree = "<group>"; };
+		2E2E3FBB1E1568E100ADF914 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		2E2E3FBC1E1568E100ADF914 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		2E2E3FBF1E156A7800ADF914 /* ShuffleIt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShuffleIt-Bridging-Header.h"; sourceTree = "<group>"; };
+		2E2E3FC21E1577E200ADF914 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		2E33EAE21DF27290004E54F0 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		2E33EAE41DF38E9D004E54F0 /* customCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customCell.swift; sourceTree = "<group>"; };
+		2E6F67871DF3AFE60084BB69 /* LibraryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryCell.swift; sourceTree = "<group>"; };
+		2E6F67891DF3B02F0084BB69 /* LibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		2E78057F1E276DBD00E21F4B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2E7805811E277BC100E21F4B /* ShuffleIt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShuffleIt.entitlements; sourceTree = "<group>"; };
+		2E7805831E27953200E21F4B /* ProfilePic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfilePic.swift; sourceTree = "<group>"; };
+		2E7805851E2B380800E21F4B /* Spinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		2E7805871E2C74B600E21F4B /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		65C915FB2E135D317CA4EDFC /* Pods_ShuffleIt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShuffleIt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E1CDA5CD76B4616DE608F06 /* Pods-ShuffleIt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShuffleIt.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShuffleIt/Pods-ShuffleIt.release.xcconfig"; sourceTree = "<group>"; };
+		7AF328717E603A6DF1B2C304 /* Pods_ShuffleItUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShuffleItUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0DA15A03EA4FA26D8A2639 /* Pods_ShuffleItTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShuffleItTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9752625F8AD8213DA377E17E /* Pods-ShuffleItUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShuffleItUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShuffleItUITests/Pods-ShuffleItUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9F510CA6E47E418F83D5CE5D /* Pods-ShuffleIt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShuffleIt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShuffleIt/Pods-ShuffleIt.debug.xcconfig"; sourceTree = "<group>"; };
+		AF0908EC68D02148D27C2758 /* Pods-ShuffleItTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShuffleItTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShuffleItTests/Pods-ShuffleItTests.release.xcconfig"; sourceTree = "<group>"; };
+		CF5901C082D93DD43D3760D2 /* Pods-ShuffleItUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShuffleItUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShuffleItUITests/Pods-ShuffleItUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D98BE7481AE1349814C6DA65 /* Pods-ShuffleItTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShuffleItTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShuffleItTests/Pods-ShuffleItTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +110,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F320B755C250822E22E1E721 /* Pods_ShuffleIt.framework in Frameworks */,
+				2E2E3FBD1E1568E100ADF914 /* FBSDKCoreKit.framework in Frameworks */,
+				2E2E3FBE1E1568E100ADF914 /* FBSDKLoginKit.framework in Frameworks */,
+				2E2E3FC31E1577E200ADF914 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +121,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCAB3B836422D2F4EF64E80A /* Pods_ShuffleItTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CB9893B3F4205ABC48A563F /* Pods_ShuffleItUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +143,8 @@
 				2E2CEC661DEB98BA009CEA5F /* ShuffleItTests */,
 				2E2CEC711DEB98BA009CEA5F /* ShuffleItUITests */,
 				2E2CEC4D1DEB98BA009CEA5F /* Products */,
+				6F70F8CA2D63F47BF72722E1 /* Pods */,
+				E780315F152E778F0A0A3C49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +161,27 @@
 		2E2CEC4E1DEB98BA009CEA5F /* ShuffleIt */ = {
 			isa = PBXGroup;
 			children = (
+				2E7805821E2794FE00E21F4B /* View */,
+				2E7805811E277BC100E21F4B /* ShuffleIt.entitlements */,
+				2E642F3F1DF4CFEF00C8FAF3 /* MusicFiles */,
 				2E2CEC4F1DEB98BA009CEA5F /* AppDelegate.swift */,
 				2E2CEC511DEB98BA009CEA5F /* ViewController.swift */,
+				2E2DF64C1DF4969000A52FAB /* PlaySwift.swift */,
+				2E6F67891DF3B02F0084BB69 /* LibraryViewController.swift */,
+				2E6F67871DF3AFE60084BB69 /* LibraryCell.swift */,
+				2E33EAE41DF38E9D004E54F0 /* customCell.swift */,
+				2E33EAE21DF27290004E54F0 /* ProfileViewController.swift */,
 				2E2CEC531DEB98BA009CEA5F /* Main.storyboard */,
 				2E2CEC591DEB98BA009CEA5F /* Assets.xcassets */,
 				2E2CEC5B1DEB98BA009CEA5F /* LaunchScreen.storyboard */,
 				2E2CEC5E1DEB98BA009CEA5F /* Info.plist */,
+				2E78057F1E276DBD00E21F4B /* GoogleService-Info.plist */,
 				2E2CEC561DEB98BA009CEA5F /* ShuffleIt.xcdatamodeld */,
+				2E2E3FC21E1577E200ADF914 /* Bolts.framework */,
+				2E2E3FBB1E1568E100ADF914 /* FBSDKCoreKit.framework */,
+				2E2E3FBC1E1568E100ADF914 /* FBSDKLoginKit.framework */,
+				2E2E3FBF1E156A7800ADF914 /* ShuffleIt-Bridging-Header.h */,
+				2E7805871E2C74B600E21F4B /* TabBarController.swift */,
 			);
 			path = ShuffleIt;
 			sourceTree = "<group>";
@@ -128,6 +204,53 @@
 			path = ShuffleItUITests;
 			sourceTree = "<group>";
 		};
+		2E642F3F1DF4CFEF00C8FAF3 /* MusicFiles */ = {
+			isa = PBXGroup;
+			children = (
+				2E2BA8481DF5612B0062C619 /* 01-Animals.mp3 */,
+				2E2BA8491DF5612B0062C619 /* 02-Enakenna Yaarum Illaye.mp3 */,
+				2E2BA84A1DF5612B0062C619 /* 03-Heathens.mp3 */,
+				2E2BA84B1DF5612B0062C619 /* 04-Halena.mp3 */,
+				2E2BA84C1DF5612B0062C619 /* 07-The Reason.mp3 */,
+				2E2BA84D1DF5612B0062C619 /* 08-Thalli Pogathey.mp3 */,
+				2E2BA84E1DF5612B0062C619 /* 05-Cheap Thrills.mp3 */,
+				2E2BA84F1DF5612B0062C619 /* 06-Radioactive.mp3 */,
+			);
+			name = MusicFiles;
+			sourceTree = "<group>";
+		};
+		2E7805821E2794FE00E21F4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E7805831E27953200E21F4B /* ProfilePic.swift */,
+				2E7805851E2B380800E21F4B /* Spinner.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6F70F8CA2D63F47BF72722E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F510CA6E47E418F83D5CE5D /* Pods-ShuffleIt.debug.xcconfig */,
+				6E1CDA5CD76B4616DE608F06 /* Pods-ShuffleIt.release.xcconfig */,
+				D98BE7481AE1349814C6DA65 /* Pods-ShuffleItTests.debug.xcconfig */,
+				AF0908EC68D02148D27C2758 /* Pods-ShuffleItTests.release.xcconfig */,
+				CF5901C082D93DD43D3760D2 /* Pods-ShuffleItUITests.debug.xcconfig */,
+				9752625F8AD8213DA377E17E /* Pods-ShuffleItUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E780315F152E778F0A0A3C49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65C915FB2E135D317CA4EDFC /* Pods_ShuffleIt.framework */,
+				7D0DA15A03EA4FA26D8A2639 /* Pods_ShuffleItTests.framework */,
+				7AF328717E603A6DF1B2C304 /* Pods_ShuffleItUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +258,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E2CEC771DEB98BA009CEA5F /* Build configuration list for PBXNativeTarget "ShuffleIt" */;
 			buildPhases = (
+				0CAA79EDDB1DC87A9A9F383A /* [CP] Check Pods Manifest.lock */,
 				2E2CEC481DEB98BA009CEA5F /* Sources */,
 				2E2CEC491DEB98BA009CEA5F /* Frameworks */,
 				2E2CEC4A1DEB98BA009CEA5F /* Resources */,
+				75C7F526DF6C78ECA831B1D5 /* [CP] Embed Pods Frameworks */,
+				91FE47FF2DA5F58C3165BA1A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +278,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E2CEC7A1DEB98BA009CEA5F /* Build configuration list for PBXNativeTarget "ShuffleItTests" */;
 			buildPhases = (
+				5999BFF890EBA4C9AB096CEA /* [CP] Check Pods Manifest.lock */,
 				2E2CEC5F1DEB98BA009CEA5F /* Sources */,
 				2E2CEC601DEB98BA009CEA5F /* Frameworks */,
 				2E2CEC611DEB98BA009CEA5F /* Resources */,
+				25ABDC7CADC7E7B91D8C60AB /* [CP] Embed Pods Frameworks */,
+				E1A02DFADF5F214B0227708C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +299,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E2CEC7D1DEB98BA009CEA5F /* Build configuration list for PBXNativeTarget "ShuffleItUITests" */;
 			buildPhases = (
+				A63B566ABD2934D72C01BEBC /* [CP] Check Pods Manifest.lock */,
 				2E2CEC6A1DEB98BA009CEA5F /* Sources */,
 				2E2CEC6B1DEB98BA009CEA5F /* Frameworks */,
 				2E2CEC6C1DEB98BA009CEA5F /* Resources */,
+				2A5CB7A6C15DF927DFB7B6A8 /* [CP] Embed Pods Frameworks */,
+				F1B3D5FF60BB27B4EEAFCAD1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -191,13 +323,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Nishapp;
 				TargetAttributes = {
 					2E2CEC4B1DEB98BA009CEA5F = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = WC8AA8QE77;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					2E2CEC621DEB98BA009CEA5F = {
 						CreatedOnToolsVersion = 8.1;
@@ -238,9 +379,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E2BA8511DF5612B0062C619 /* 02-Enakenna Yaarum Illaye.mp3 in Resources */,
+				2E2BA8561DF5612B0062C619 /* 05-Cheap Thrills.mp3 in Resources */,
+				2E2BA8571DF5612B0062C619 /* 06-Radioactive.mp3 in Resources */,
 				2E2CEC5D1DEB98BA009CEA5F /* LaunchScreen.storyboard in Resources */,
 				2E2CEC5A1DEB98BA009CEA5F /* Assets.xcassets in Resources */,
+				2E7805801E276DBD00E21F4B /* GoogleService-Info.plist in Resources */,
+				2E2BA8531DF5612B0062C619 /* 04-Halena.mp3 in Resources */,
+				2E2BA8551DF5612B0062C619 /* 08-Thalli Pogathey.mp3 in Resources */,
+				2E2BA8541DF5612B0062C619 /* 07-The Reason.mp3 in Resources */,
 				2E2CEC551DEB98BA009CEA5F /* Main.storyboard in Resources */,
+				2E2BA8501DF5612B0062C619 /* 01-Animals.mp3 in Resources */,
+				2E2BA8521DF5612B0062C619 /* 03-Heathens.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +410,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CAA79EDDB1DC87A9A9F383A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		25ABDC7CADC7E7B91D8C60AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShuffleItTests/Pods-ShuffleItTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A5CB7A6C15DF927DFB7B6A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShuffleItUITests/Pods-ShuffleItUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5999BFF890EBA4C9AB096CEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		75C7F526DF6C78ECA831B1D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShuffleIt/Pods-ShuffleIt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91FE47FF2DA5F58C3165BA1A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShuffleIt/Pods-ShuffleIt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A63B566ABD2934D72C01BEBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1A02DFADF5F214B0227708C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShuffleItTests/Pods-ShuffleItTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1B3D5FF60BB27B4EEAFCAD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShuffleItUITests/Pods-ShuffleItUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E2CEC481DEB98BA009CEA5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,7 +555,15 @@
 			files = (
 				2E2CEC581DEB98BA009CEA5F /* ShuffleIt.xcdatamodeld in Sources */,
 				2E2CEC521DEB98BA009CEA5F /* ViewController.swift in Sources */,
+				2E7805881E2C74B600E21F4B /* TabBarController.swift in Sources */,
+				2E33EAE51DF38E9D004E54F0 /* customCell.swift in Sources */,
+				2E6F67881DF3AFE60084BB69 /* LibraryCell.swift in Sources */,
+				2E6F678A1DF3B02F0084BB69 /* LibraryViewController.swift in Sources */,
+				2E7805841E27953200E21F4B /* ProfilePic.swift in Sources */,
+				2E2DF64D1DF4969000A52FAB /* PlaySwift.swift in Sources */,
+				2E33EAE31DF27290004E54F0 /* ProfileViewController.swift in Sources */,
 				2E2CEC501DEB98BA009CEA5F /* AppDelegate.swift in Sources */,
+				2E7805861E2B380800E21F4B /* Spinner.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,6 +636,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -390,6 +687,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -417,32 +715,58 @@
 		};
 		2E2CEC781DEB98BA009CEA5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F510CA6E47E418F83D5CE5D /* Pods-ShuffleIt.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ShuffleIt/ShuffleIt.entitlements;
 				DEVELOPMENT_TEAM = WC8AA8QE77;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShuffleIt",
+				);
 				INFOPLIST_FILE = ShuffleIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nishapp.ShuffleIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShuffleIt/ShuffleIt-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		2E2CEC791DEB98BA009CEA5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E1CDA5CD76B4616DE608F06 /* Pods-ShuffleIt.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ShuffleIt/ShuffleIt.entitlements;
 				DEVELOPMENT_TEAM = WC8AA8QE77;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ShuffleIt",
+				);
 				INFOPLIST_FILE = ShuffleIt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nishapp.ShuffleIt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ShuffleIt/ShuffleIt-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		2E2CEC7B1DEB98BA009CEA5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D98BE7481AE1349814C6DA65 /* Pods-ShuffleItTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +782,7 @@
 		};
 		2E2CEC7C1DEB98BA009CEA5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF0908EC68D02148D27C2758 /* Pods-ShuffleItTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +798,7 @@
 		};
 		2E2CEC7E1DEB98BA009CEA5F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5901C082D93DD43D3760D2 /* Pods-ShuffleItUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = WC8AA8QE77;
@@ -487,6 +813,7 @@
 		};
 		2E2CEC7F1DEB98BA009CEA5F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9752625F8AD8213DA377E17E /* Pods-ShuffleItUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = WC8AA8QE77;
@@ -518,6 +845,7 @@
 				2E2CEC791DEB98BA009CEA5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E2CEC7A1DEB98BA009CEA5F /* Build configuration list for PBXNativeTarget "ShuffleItTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +854,7 @@
 				2E2CEC7C1DEB98BA009CEA5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E2CEC7D1DEB98BA009CEA5F /* Build configuration list for PBXNativeTarget "ShuffleItUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +863,7 @@
 				2E2CEC7F1DEB98BA009CEA5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
