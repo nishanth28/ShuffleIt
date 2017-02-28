@@ -10,6 +10,7 @@ target 'ShuffleIt' do
   pod 'Firebase/Auth'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
+  pod 'NVActivityIndicatorView'
  
   target 'ShuffleItTests' do
     inherit! :search_paths

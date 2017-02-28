@@ -10,6 +10,7 @@
 import Foundation
 import UIKit
 import Alamofire
+import NVActivityIndicatorView
 
 struct songCell {
     
@@ -31,6 +32,8 @@ class LibraryViewController: UIViewController, UITableViewDataSource,UITableView
     
     typealias JSONStd = [String:AnyObject]
     
+    
+    
     var keywords : String!
     
    //  var songCells = [songCell]()
@@ -46,6 +49,10 @@ class LibraryViewController: UIViewController, UITableViewDataSource,UITableView
         self.view.endEditing(true)
         libraryTable.isHidden = false
         searchMusicLabel.isHidden = true
+        NVActivityIndicatorView.DEFAULT_TYPE = .lineScale
+        let activityData = ActivityData()
+        NVActivityIndicatorPresenter.sharedInstance.startAnimating(activityData)
+        
     }
     
    // var names = [String]()
@@ -101,7 +108,7 @@ class LibraryViewController: UIViewController, UITableViewDataSource,UITableView
                                     self.libraryTable.reloadData()
                                     return
                                 })
-                    
+                                
                            }
                         }
                     }
@@ -113,7 +120,7 @@ class LibraryViewController: UIViewController, UITableViewDataSource,UITableView
         catch{
             print("Error while parsing JSON")
         }
-        
+        NVActivityIndicatorPresenter.sharedInstance.stopAnimating()
     }
 
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
@@ -142,6 +149,7 @@ class LibraryViewController: UIViewController, UITableViewDataSource,UITableView
         //cell1.libraryAlbumName.text = albums[1]
         
         return cell1
+        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

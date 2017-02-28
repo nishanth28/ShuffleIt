@@ -8,14 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0CB9893B3F4205ABC48A563F /* Pods_ShuffleItUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AF328717E603A6DF1B2C304 /* Pods_ShuffleItUITests.framework */; };
-		2E2BA8501DF5612B0062C619 /* 01-Animals.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA8481DF5612B0062C619 /* 01-Animals.mp3 */; };
-		2E2BA8511DF5612B0062C619 /* 02-Enakenna Yaarum Illaye.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA8491DF5612B0062C619 /* 02-Enakenna Yaarum Illaye.mp3 */; };
-		2E2BA8521DF5612B0062C619 /* 03-Heathens.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA84A1DF5612B0062C619 /* 03-Heathens.mp3 */; };
-		2E2BA8531DF5612B0062C619 /* 04-Halena.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA84B1DF5612B0062C619 /* 04-Halena.mp3 */; };
-		2E2BA8541DF5612B0062C619 /* 07-The Reason.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA84C1DF5612B0062C619 /* 07-The Reason.mp3 */; };
-		2E2BA8551DF5612B0062C619 /* 08-Thalli Pogathey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA84D1DF5612B0062C619 /* 08-Thalli Pogathey.mp3 */; };
-		2E2BA8561DF5612B0062C619 /* 05-Cheap Thrills.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA84E1DF5612B0062C619 /* 05-Cheap Thrills.mp3 */; };
-		2E2BA8571DF5612B0062C619 /* 06-Radioactive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2E2BA84F1DF5612B0062C619 /* 06-Radioactive.mp3 */; };
 		2E2CEC501DEB98BA009CEA5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2CEC4F1DEB98BA009CEA5F /* AppDelegate.swift */; };
 		2E2CEC521DEB98BA009CEA5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2CEC511DEB98BA009CEA5F /* ViewController.swift */; };
 		2E2CEC551DEB98BA009CEA5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E2CEC531DEB98BA009CEA5F /* Main.storyboard */; };
@@ -58,14 +50,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2E2BA8481DF5612B0062C619 /* 01-Animals.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01-Animals.mp3"; sourceTree = "<group>"; };
-		2E2BA8491DF5612B0062C619 /* 02-Enakenna Yaarum Illaye.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02-Enakenna Yaarum Illaye.mp3"; sourceTree = "<group>"; };
-		2E2BA84A1DF5612B0062C619 /* 03-Heathens.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03-Heathens.mp3"; sourceTree = "<group>"; };
-		2E2BA84B1DF5612B0062C619 /* 04-Halena.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04-Halena.mp3"; sourceTree = "<group>"; };
-		2E2BA84C1DF5612B0062C619 /* 07-The Reason.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07-The Reason.mp3"; sourceTree = "<group>"; };
-		2E2BA84D1DF5612B0062C619 /* 08-Thalli Pogathey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08-Thalli Pogathey.mp3"; sourceTree = "<group>"; };
-		2E2BA84E1DF5612B0062C619 /* 05-Cheap Thrills.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05-Cheap Thrills.mp3"; sourceTree = "<group>"; };
-		2E2BA84F1DF5612B0062C619 /* 06-Radioactive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06-Radioactive.mp3"; sourceTree = "<group>"; };
 		2E2CEC4C1DEB98BA009CEA5F /* ShuffleIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuffleIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E2CEC4F1DEB98BA009CEA5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E2CEC511DEB98BA009CEA5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -207,14 +191,6 @@
 		2E642F3F1DF4CFEF00C8FAF3 /* MusicFiles */ = {
 			isa = PBXGroup;
 			children = (
-				2E2BA8481DF5612B0062C619 /* 01-Animals.mp3 */,
-				2E2BA8491DF5612B0062C619 /* 02-Enakenna Yaarum Illaye.mp3 */,
-				2E2BA84A1DF5612B0062C619 /* 03-Heathens.mp3 */,
-				2E2BA84B1DF5612B0062C619 /* 04-Halena.mp3 */,
-				2E2BA84C1DF5612B0062C619 /* 07-The Reason.mp3 */,
-				2E2BA84D1DF5612B0062C619 /* 08-Thalli Pogathey.mp3 */,
-				2E2BA84E1DF5612B0062C619 /* 05-Cheap Thrills.mp3 */,
-				2E2BA84F1DF5612B0062C619 /* 06-Radioactive.mp3 */,
 			);
 			name = MusicFiles;
 			sourceTree = "<group>";
@@ -379,18 +355,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E2BA8511DF5612B0062C619 /* 02-Enakenna Yaarum Illaye.mp3 in Resources */,
-				2E2BA8561DF5612B0062C619 /* 05-Cheap Thrills.mp3 in Resources */,
-				2E2BA8571DF5612B0062C619 /* 06-Radioactive.mp3 in Resources */,
 				2E2CEC5D1DEB98BA009CEA5F /* LaunchScreen.storyboard in Resources */,
 				2E2CEC5A1DEB98BA009CEA5F /* Assets.xcassets in Resources */,
 				2E7805801E276DBD00E21F4B /* GoogleService-Info.plist in Resources */,
-				2E2BA8531DF5612B0062C619 /* 04-Halena.mp3 in Resources */,
-				2E2BA8551DF5612B0062C619 /* 08-Thalli Pogathey.mp3 in Resources */,
-				2E2BA8541DF5612B0062C619 /* 07-The Reason.mp3 in Resources */,
 				2E2CEC551DEB98BA009CEA5F /* Main.storyboard in Resources */,
-				2E2BA8501DF5612B0062C619 /* 01-Animals.mp3 in Resources */,
-				2E2BA8521DF5612B0062C619 /* 03-Heathens.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
